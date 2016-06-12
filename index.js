@@ -1,8 +1,6 @@
 const Botkit = require('botkit')
 
-const controller = Botkit.slackbot({
-  debug: true
-})
+const controller = Botkit.slackbot()
 
 controller.spawn({
   token: process.env.token,
