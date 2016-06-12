@@ -1,0 +1,14 @@
+{
+  "name": "stupid-fa-bot",
+  "version": "1.0.0",
+  "description": "A stupid bot for favn.slack.com",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "codeaholicguy",
+  "license": "MIT",
+  "devDependencies": {
+    "botkit": "^0.2.0"
+  }
+}
