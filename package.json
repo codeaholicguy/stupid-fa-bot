@@ -8,7 +8,11 @@
   },
   "author": "codeaholicguy",
   "license": "MIT",
-  "devDependencies": {
-    "botkit": "^0.2.0"
+  "dependencies": {
+    "botkit": "^0.2.0",
+    "nodemon": "^1.9.2"
+  },
+  "engines": {
+    "node": "6.2.1"
   }
 }
